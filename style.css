@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+
+}
+.head1{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/pexels-oleksandr-pidvalnyi-1008155.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    padding: 15px;
+    list-style: none;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    transition: 0.5s;
+}
+.nav ul li a:hover{
+    color: red;
+    font-size: 22px;
+}
+.logo{
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.logo h1{
+    color: black;
+}
+.btn{
+    margin: 12px;
+    padding: 9px;
+    background-color: rgb(68, 44, 44);
+    color: white;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    transition:0.5s ;
+}
+
+.btn:hover{
+    background-color:  rgb(109, 70, 70);
+}
+
+.hd{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hd h1{
+    font-size: 92px;
+    color: rgb(237, 228, 228);
+    text-align: center;
+    margin: 10px;
+}
+
+.hd h3{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin: 10px;
+}
+
+.hd p{
+    color: white;
+    line-height: 25px;
+    margin: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-2{
+    color: white;
+    margin: 10px;
+    padding: 12px;
+    background-color: rgb(68, 44, 44);
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-2:hover{
+    background-color:  rgb(109, 70, 70);
+}
+.head h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.place{
+    padding-bottom: 80px;
+    width: 100%;
+    height: 50vh;
+    background-color:azure;
+}
+.p-img{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(162, 89, 89);
+}
+
+/*************************************************/
+
+
+
+
+
+.img{
+    background: url(./images/images.jfif);
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.head h2{
+    font-size: 29px;
+}
+.head p{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+.img .hss{
+    width: 300px;
+    height: 200px;
+    font-size: 0;
+    color: white;
+    display:block;
+    transition: 0.5s;
+}
+
+.img .hss:hover{
+    font-size: 80px;
+    display: block;
+    color: white;
+}
+
+.images{
+    display: flex;
+}
+
+.one{
+    background: url(./images/download\ \(1\).jfif);
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.two{
+    background:url(./images/download.jfif) ;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.three{
+    background:url(./images/2Q.png);
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+
+.main{
+    width: 100%;
+    height: 76vh;
+    display: flex;
+}
+
+.mdiv1{
+    padding: 50PX;
+    width: 50%;
+    height: 60vh;
+}
+.mdiv1 h1{
+    color: rgb(7, 49, 5);
+    margin-top: 60PX;
+}
+
+.mdiv1 P{
+    margin-top: 30PX;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.mbtn{
+    color: white;
+    padding: 11px;
+    background-color: red;
+    font-size: 19px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.mbtn:hover{
+    background-color: rgb(129, 82, 82);
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+}
+
+.mdiv2{
+    width: 50%;
+    height: 76vh;
+    background-color: rgb(130, 193, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+width: 220px;
+height: 300px;
+background: url(./images/pexels-nicolas-2914152.jpg);
+background-size: cover;
+background-position: center;
+margin-right: 20px;
+}
+
+.img2{
+    width: 220px;
+    height: 360px;
+    background: url(./images/pexels-quang-nguyen-vinh-2132126.jpg);
+    background-size: cover;
+background-position: center;
+    }
+
+    /***************************************/
+
+    .tourist{
+        width: 100%;
+        height: 65vh;
+        background:url(./images/pexels-mads-thomsen-2739013.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .tourist h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .t-main{
+        display: flex;
+        padding: 50px;
+    }
+    .t1{
+        margin-right: 30px;
+        width: 350px;
+        height: 200px;
+        background-color: rgb(206, 211, 211);
+        border-radius: 20px;
+    }
+
+    .tname{
+        width: 100%;
+        height: 30%;
+        background-color: rgb(207, 208, 126);
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .tname img{
+        padding: 8px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .tbody{
+        padding: 20px;
+        transition: 0.5s;
+    }
+
+    .tbody:hover{
+        box-shadow:
+        0 2.8px 2.2px rgba(255, 255, 255, 0),
+        0 6.7px 5.3px rgba(255, 255, 255, 0.048),
+        0 12.5px 10px rgba(255, 255, 255, 0.06),
+        0 22.3px 17.9px rgba(255, 255, 255, 0.072),
+        0 41.8px 33.4px rgba(255, 255, 255, 0.086),
+        0 100px 80px rgba(255, 255, 255, 0.12)
+      ;
+    }
+
+    .tbody p{
+        font-size: 17px;
+        line-height: 20px;
+        font-weight: 500;
+        color: rgb(1, 19, 1);
+    }
+/************************************************************/
+
+.contact{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    padding: 0px;
+    background: url(./images/pexels-cátia-matos-1072179.jpg);
+}
+
+.cmain1{
+    padding: 15px;
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cmain2{
+    width: 50%;
+    height: 90vh;
+    padding: 15px;
+}
+
+.info1{
+    width: 300px;
+     height: 200px;
+     border-radius: 15px;
+    /* border: 2px solid;*/
+}
+
+.infohed{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.infohed .imgs{
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+   
+}
+
+.infohed h2{
+    color: white;
+}
+
+.infobody{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.infobody p{
+    font-size: 19px;
+    color: white;
+    line-height: 25px;
+}
+   .cmain2 h1{
+    color: white;
+   }
+.cmain2 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}     
+    .name{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+    .f-div1{
+        width: 50%;
+        height: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .f-div1 label{
+        font-size: 20px;
+    }
+
+    .f-div1 input{
+        margin-top: 10px;
+        width: 90%;
+        height: 25px;
+    }
+
+    .f-div2{
+        width: 50%;
+        height: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .f-div2 label{
+        font-size: 20px;
+    }
+
+    .f-div2 input{
+        margin-top: 10px;
+        width: 90%;
+        height: 25px;
+    }
+
+    .email{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .email label{
+        font-size: 20px;
+    }
+
+    .email input{
+        width: 95%;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .message{
+        width: 100%;
+        color: white;
+    }
+
+    .message label{
+        font-size: 20px;
+    }
+
+    .message textarea{
+        margin-top: 10px;
+        width: 95%;
+    }
+
+    .message input{
+        margin-top: 15px;
+        width: 100px;
+        height: 30px;
+        font-size: 18px;
+        border: none;
+        background-color: rgb(255, 63, 63);
+        color: white;
+        border-radius: 15px;
+        transition: 0.5s;
+    }
+    .message input:hover{
+        background-color: rgb(227, 86, 86);
+        box-shadow:
+        0 2.8px 2.2px rgba(255, 255, 255, 0),
+        0 6.7px 5.3px rgba(255, 255, 255, 0.048),
+        0 12.5px 10px rgba(255, 255, 255, 0.06),
+        0 22.3px 17.9px rgba(255, 255, 255, 0.072),
+        0 41.8px 33.4px rgba(255, 255, 255, 0.086),
+        0 100px 80px rgba(255, 255, 255, 0.12)
+      ;
+    }
+
+    footer{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p{
+        color: white;
+    }
